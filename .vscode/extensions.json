@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "mkaufman.htmlhint",
+        "tht13.html-preview-vscode",
+        "ecmel.vscode-html-css",
+        "sidthesloth.html5-boilerplate",
+        "abusaidm.html-snippets",
+        "zignd.html-css-class-completion",
+        "lonefy.vscode-js-css-html-formatter"
+    ]
+}

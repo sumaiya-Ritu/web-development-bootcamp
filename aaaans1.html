@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="from.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(233, 64, 168);
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+
+        First Name: <input type="text" id="name" placeholder="Enter your name"> <br> <br> Password: <input type="password" id="password" placeholder="Enter your password"> <br> <br> Gender : <input type="radio" id="male" name="gender" value="male">
+        <label for="male">MALE</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">FEMALE</label> <br> <br> Choose your subject:
+
+        <select name="subject"> 
+				 
+        <option> Algorithm</option>
+        <option> C</option>
+        <option> Java</option>
+    
+        </select> <br> <br>
+
+
+
+
+    </form>
+
+    <button onclick="submit()" class="submit">Send</button>
+
+    <script src="form.js"></script>
+    <script>
+        function submit() {
+
+            var name = document.querySelector("#name").value;
+            var pass = document.querySelector("#password").value;
+            if (name == "" || pass == "") {
+
+
+
+                alert("Field's can not be empty")
+            } else {
+
+                if (pass.length > 10) {
+                    alert('Password is not valid')
+                } else {
+                    alert('ok')
+                }
+
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

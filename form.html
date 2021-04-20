@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+
+
+</head>
+
+<body>
+    <h2>Register</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <label for="myAddresses"> Address</label>
+        <div>
+            <input type="text" name="address" id="myAddresses">
+        </div>
+        <br>
+        <label for="email"> email</label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            Mobile no: <input type="tel" name="myNum">
+        </div>
+        <div>
+            Date of birth: <input type="date" name="dob">
+        </div>
+        <div>
+            Gender: <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+
+        </div>
+        <div>
+            are u a Nonsencle?:<input type="checkbox" name="nonsense">YES
+            <input type="checkbox" name="nonsense">NO
+        </div>
+        <br>
+        <div>
+            Write about yourself:<br>
+            <textarea name="mytext" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now ">
+            <input type="reset" value="Reset Now ">
+
+        </div>
+
+    </form>
+</body>
+
+</html>
